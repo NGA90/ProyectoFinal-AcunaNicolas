@@ -393,7 +393,7 @@ a:visited {
     padding-bottom: 2px;
     margin: 5px;
     width: 60vh;
-    height: fit-content;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -403,7 +403,7 @@ a:visited {
     transition-property: background;
     transition-duration: 1s; }
     .especialidad .especialidad__card .especialidad__card__img img {
-      min-width: 80%; }
+      min-width: 50%; }
     .especialidad .especialidad__card button {
       background-color: #0096a1;
       color: #fff;
@@ -420,7 +420,7 @@ a:visited {
         color: #fff; }
     .especialidad .especialidad__card button:hover {
       background: #5f4ff7;
-      border: 2px solid #fff; }
+      border: 2px solid #000000; }
   .especialidad .especialidad__card:hover {
     background: #dfdfdf; }
   .especialidad .especialidad__card__content h3 {
@@ -446,11 +446,17 @@ a:visited {
         width: 90vw;
         height: fit-content;
         justify-content: flex-start;
-        padding: 10px 0 10px 0; }
+        padding: 10px 0 10px 0;
+        font-size: 13px; }
         .especialidad .especialidad__card button {
           font-size: 12px;
           font: bold;
-          padding: 6px 12px; } }
+          padding: 6px 12px;
+          display: none; }
+        .especialidad .especialidad__card .especialidad__card__img img {
+          max-width: 80px; }
+        .especialidad .especialidad__card .especialidad__card__content h3 {
+          font-size: 20px; } }
 
 .tarjeta {
   padding-top: 100px;
@@ -740,39 +746,39 @@ a:visited {
     -webkit-box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75); }
   @media screen and (min-width: 100px) and (max-width: 799px) {
-    .tarjeta .tarjeta {
+    .tarjeta {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(1fr);
       gap: 15px 0px;
       grid-auto-flow: row;
-      grid-template-areas: "tarjeta__profesional1" "tarjeta__profesional1" "tarjeta__profesional2" "tarjeta__profesional2" "tarjeta__profesional3" "tarjeta__profesional3" "tarjeta__profesional4" "tarjeta__profesional4" "tarjeta__profesional5" "tarjeta__profesional5" "tarjeta__profesional6" "tarjeta__profesional6" "tarjeta__profesional7" "tarjeta__profesional7" "tarjeta__profesional8" "tarjeta__profesional8" "tarjeta__profesional9" "tarjeta__profesional9" "tarjeta__profesional10" "tarjeta__profesional10" "tarjeta__profesional11" "tarjeta__profesional11" "tarjeta__profesional12" "tarjeta__profesional12"; }
-    .tarjeta .tarjeta__profesional1 {
-      grid-area: tarjeta__profesional1; }
-    .tarjeta .tarjeta__profesional2 {
-      grid-area: tarjeta__profesional2; }
-    .tarjeta .tarjeta__profesional3 {
-      grid-area: tarjeta__profesional3; }
-    .tarjeta .tarjeta__profesional4 {
-      grid-area: tarjeta__profesional4; }
-    .tarjeta .tarjeta__profesional5 {
-      grid-area: tarjeta__profesional5; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional6; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional7; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional8; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional9; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional10; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional11; }
-    .tarjeta .tarjeta__profesional6 {
-      grid-area: tarjeta__profesional12; }
-    .tarjeta .tarjeta__profesional1, .tarjeta .tarjeta__profesional2, .tarjeta .tarjeta__profesional3, .tarjeta .tarjeta__profesional4, .tarjeta .tarjeta__profesional5, .tarjeta .tarjeta__profesional6,
-    .tarjeta .tarjeta__profesional7, .tarjeta .tarjeta__profesional8, .tarjeta .tarjeta__profesional9, .tarjeta .tarjeta__profesional10, .tarjeta .tarjeta__profesional11, .tarjeta .tarjeta__profesional12 {
-      width: 80vw; } }
+      grid-template-areas: "tarjeta__profesional1" "tarjeta__profesional1" "tarjeta__profesional2" "tarjeta__profesional2" "tarjeta__profesional3" "tarjeta__profesional3" "tarjeta__profesional4" "tarjeta__profesional4" "tarjeta__profesional5" "tarjeta__profesional5" "tarjeta__profesional6" "tarjeta__profesional6" "tarjeta__profesional7" "tarjeta__profesional7" "tarjeta__profesional8" "tarjeta__profesional8" "tarjeta__profesional9" "tarjeta__profesional9" "tarjeta__profesional10" "tarjeta__profesional10" "tarjeta__profesional11" "tarjeta__profesional11" "tarjeta__profesional12" "tarjeta__profesional12"; } }
+  .tarjeta .tarjeta__profesional1 {
+    grid-area: tarjeta__profesional1; }
+  .tarjeta .tarjeta__profesional2 {
+    grid-area: tarjeta__profesional2; }
+  .tarjeta .tarjeta__profesional3 {
+    grid-area: tarjeta__profesional3; }
+  .tarjeta .tarjeta__profesional4 {
+    grid-area: tarjeta__profesional4; }
+  .tarjeta .tarjeta__profesional5 {
+    grid-area: tarjeta__profesional5; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional6; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional7; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional8; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional9; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional10; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional11; }
+  .tarjeta .tarjeta__profesional6 {
+    grid-area: tarjeta__profesional12; }
+  .tarjeta .tarjeta__profesional1, .tarjeta .tarjeta__profesional2, .tarjeta .tarjeta__profesional3, .tarjeta .tarjeta__profesional4, .tarjeta .tarjeta__profesional5, .tarjeta .tarjeta__profesional6,
+  .tarjeta .tarjeta__profesional7, .tarjeta .tarjeta__profesional8, .tarjeta .tarjeta__profesional9, .tarjeta .tarjeta__profesional10, .tarjeta .tarjeta__profesional11, .tarjeta .tarjeta__profesional12 {
+    width: 80vw; }
 
 .form__container {
   display: flex;
