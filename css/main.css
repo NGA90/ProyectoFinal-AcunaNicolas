@@ -735,7 +735,8 @@ a:visited {
   .tarjeta .tarjeta__profesional-content p {
     font-weight: 500;
     color: #0096a1;
-    font-style: italic; }
+    font-style: italic;
+    text-shadow: 1px 1px 2px #000; }
   .tarjeta .tarjeta__profesional-content h3 {
     text-shadow: 1px 1px 2px #0096a1;
     font-weight: 800; }
@@ -904,11 +905,13 @@ a:visited {
     .depilacion__Container .especialidad-button button {
       font-size: 12px;
       font: bold;
-      padding: 6px 12px; }
+      padding: 6px 12px;
+      display: none; }
     .depilacion__Container .depilacion__Cards {
       padding: 10px 0 10px 0;
       width: 90vw;
-      height: fit-content; }
+      height: fit-content;
+      font-size: 13px; }
       .depilacion__Container .depilacion__Cards .depilacion__Cards-img {
         width: 100%; }
       .depilacion__Container .depilacion__Cards .depilacion__Cards-content h3 {
@@ -965,13 +968,15 @@ a:visited {
     .tratamientosFaciales__Container .especialidad-button button {
       font-size: 12px;
       font: bold;
-      padding: 6px 12px; }
+      padding: 6px 12px;
+      display: none; }
     .tratamientosFaciales__Container .tratamientosFaciales__Cards {
       flex-direction: column;
       flex-wrap: nowrap;
       width: 90vw;
       height: fit-content;
-      padding: 10px 0 10px 0; }
+      padding: 10px 0 10px 0;
+      font-size: 13px; }
       .tratamientosFaciales__Container .tratamientosFaciales__Cards .tratamientosFaciales__Cards-img {
         width: 100%;
         object-fit: cover; }
@@ -1032,13 +1037,15 @@ a:visited {
     .tratamientosCorporales__Container .especialidad-button button {
       font-size: 12px;
       font: bold;
-      padding: 6px 12px; }
+      padding: 6px 12px;
+      display: none; }
     .tratamientosCorporales__Container .tratamientosCorporales__Cards {
       flex-direction: column;
       flex-wrap: nowrap;
       width: 90vw;
       height: fit-content;
-      padding: 10px 0 10px 0; }
+      padding: 10px 0 10px 0;
+      font-size: 13px; }
       .tratamientosCorporales__Container .tratamientosCorporales__Cards .tratamientosCorporales__Cards-img {
         width: 100%;
         object-fit: cover; }
