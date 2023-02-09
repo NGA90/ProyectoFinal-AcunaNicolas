@@ -5,19 +5,19 @@
     text-align: center;
 
     .depilacion-img {
-        opacity: 80%;
-        height: 30vh;
+        opacity: 100%;
+        height: 10vh;
         background-image: url(../resources/depilacion.jpg);
         background-size: cover;
         background-position: 50% 75%;
         text-align: center;
 
         h3{
-            margin-top: 100px;
-            color: #fff;
-            font-weight: bold;
-            font-size: 25px;
-            text-shadow: 1px 1px 2px $color-primario-btn;
+            margin-top: 20px;
+            color: $color-primario-btn;
+            font-weight: 800;
+            font-size: 45px;
+            text-shadow: 1px 1px 2px #000;
             opacity: 100%;
         }
     }
@@ -25,6 +25,7 @@
 }
 
 .depilacion__Container{
+    padding: 20px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -39,11 +40,10 @@
         transition: all 1s;
         border-radius: 40px;
         text-align: center;
-        transition: all 1s;
 
         .depilacion__Cards-img{
-            width: 50vw;
-            height: 20vh;
+            width: 20vw;
+            height: 15vh;
             object-fit: cover;
 
             img{
@@ -66,7 +66,7 @@
         background: #dfdfdf;
     }
 
-    @media screen and (min-width: 100px) and (max-width: 799px){
+    @media screen and (min-width: 100px) and (max-width: 899px){
         .especialidad-button{
             
             button{
@@ -101,19 +101,19 @@
     text-align: center;
 
     .tratamientosFaciales-img {
-        opacity: 80%;
-        height: 30vh;
+        opacity: 100%;
+        height: 10vh;
         background: url(../../resources/limpiezaFacial.jpg);
         background-size: cover;
         background-position: 0% 28%;
         text-align: center;
 
         h3{
-            margin-top: 100px;
-            color: #fff;
-            font-weight: bold;
-            font-size: 25px;
-            text-shadow: 1px 1px 2px $color-primario-btn;
+            margin-top: 20px;
+            color: $color-primario-btn;
+            font-weight: 800;
+            font-size: 45px;
+            text-shadow: 1px 1px 2px #000;
             opacity: 100%;      
         }
     }
@@ -123,21 +123,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 20px 0px 20px 0px;
 
     .tratamientosFaciales__Cards {
         display: flex;
         flex-direction: column;
-        width: 40vw;
+        align-items: center;
+        justify-content: space-around;
+        width: 30vw;
         height: fit-content;
         margin: 5px;
         transition: all 1s;
         border-radius: 40px;
         text-align: center;
+        
 
         .tratamientosFaciales__Cards-img {
-            width: 40vw;
-            height: 20vh;
+            width: 20vw;
+            height: 15vh;
             object-fit: cover;
+            
 
                 img{
                     width: 100%;
@@ -159,7 +164,27 @@
         background: #dfdfdf;
     }
 
-    @media screen and (min-width: 100px) and (max-width: 799px){
+    @media screen and (min-width: 900px) and (max-width: 1500px){
+        .tratamientosFaciales__Cards {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: 40vw;
+            height: fit-content;
+            padding: 10px 0 10px 0;
+
+            .tratamientosFaciales__Cards-img {
+                
+            }
+        }
+        .tratamientosFaciales__Cards-content{
+            h3{
+                padding-top: 10px;
+            }
+        }
+
+    }
+
+    @media screen and (min-width: 100px) and (max-width: 899px){
         .especialidad-button{
             
             button{
@@ -197,19 +222,19 @@
     text-align: center;
 
     .tratamientosCorporales-img {
-        opacity: 80%;
-        height: 30vh;
+        opacity: 100%;
+        height: 10vh;
         background-image: url(../resources/tratamientosCorporales.jpg);
         background-size: cover;
         background-position: 90%;
         text-align: center;
 
         h3{
-            margin-top: 100px;
-            color: #fff;
-            font-weight: bold;
-            font-size: 25px;
-            text-shadow: 1px 1px 2px $color-primario-btn;
+            margin-top: 20px;
+            color: $color-primario-btn;
+            font-weight: 800;
+            font-size: 45px;
+            text-shadow: 1px 1px 2px #000;
             opacity: 100%;      
         }
     }
@@ -232,10 +257,11 @@
         transition: all 1s;
         border-radius: 40px;
         text-align: center;
+        align-items: center;
 
         .tratamientosCorporales__Cards-img {
-            width: 40vw;
-            height: 20vh;
+            width: 20vw;
+            height: 15vh;
             object-fit: cover;
 
             img{
@@ -258,7 +284,7 @@
             background: #dfdfdf;
         }   
     
-    @media screen and (min-width: 100px) and (max-width: 799px){
+    @media screen and (min-width: 100px) and (max-width: 899px){
         .especialidad-button{
             
             button{
