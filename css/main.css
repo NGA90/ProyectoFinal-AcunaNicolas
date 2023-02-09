@@ -734,12 +734,13 @@ a:visited {
     background-image: url(../resources/nuestrequipo/12.jpg); }
   .tarjeta .tarjeta__profesional-content p {
     font-weight: 500;
-    color: #0096a1;
+    color: #fff;
     font-style: italic;
     text-shadow: 1px 1px 2px #000; }
   .tarjeta .tarjeta__profesional-content h3 {
-    text-shadow: 1px 1px 2px #0096a1;
-    font-weight: 800; }
+    text-shadow: 1px 1px 2px #5f4ff7;
+    font-weight: 800;
+    color: #0096a1; }
   .tarjeta .tarjeta__profesional1:hover, .tarjeta .tarjeta__profesional12:hover, .tarjeta .tarjeta__profesional2:hover, .tarjeta .tarjeta__profesional3:hover, .tarjeta .tarjeta__profesional4:hover,
   .tarjeta .tarjeta__profesional5:hover, .tarjeta .tarjeta__profesional6:hover, .tarjeta .tarjeta__profesional7:hover, .tarjeta .tarjeta__profesional8:hover, .tarjeta .tarjeta__profesional9:hover,
   .tarjeta .tarjeta__profesional10:hover, .tarjeta .tarjeta__profesional11:hover {
@@ -752,34 +753,34 @@ a:visited {
       grid-template-rows: repeat(1fr);
       gap: 15px 0px;
       grid-auto-flow: row;
-      grid-template-areas: "tarjeta__profesional1" "tarjeta__profesional1" "tarjeta__profesional2" "tarjeta__profesional2" "tarjeta__profesional3" "tarjeta__profesional3" "tarjeta__profesional4" "tarjeta__profesional4" "tarjeta__profesional5" "tarjeta__profesional5" "tarjeta__profesional6" "tarjeta__profesional6" "tarjeta__profesional7" "tarjeta__profesional7" "tarjeta__profesional8" "tarjeta__profesional8" "tarjeta__profesional9" "tarjeta__profesional9" "tarjeta__profesional10" "tarjeta__profesional10" "tarjeta__profesional11" "tarjeta__profesional11" "tarjeta__profesional12" "tarjeta__profesional12"; } }
-  .tarjeta .tarjeta__profesional1 {
-    grid-area: tarjeta__profesional1; }
-  .tarjeta .tarjeta__profesional2 {
-    grid-area: tarjeta__profesional2; }
-  .tarjeta .tarjeta__profesional3 {
-    grid-area: tarjeta__profesional3; }
-  .tarjeta .tarjeta__profesional4 {
-    grid-area: tarjeta__profesional4; }
-  .tarjeta .tarjeta__profesional5 {
-    grid-area: tarjeta__profesional5; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional6; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional7; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional8; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional9; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional10; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional11; }
-  .tarjeta .tarjeta__profesional6 {
-    grid-area: tarjeta__profesional12; }
-  .tarjeta .tarjeta__profesional1, .tarjeta .tarjeta__profesional2, .tarjeta .tarjeta__profesional3, .tarjeta .tarjeta__profesional4, .tarjeta .tarjeta__profesional5, .tarjeta .tarjeta__profesional6,
-  .tarjeta .tarjeta__profesional7, .tarjeta .tarjeta__profesional8, .tarjeta .tarjeta__profesional9, .tarjeta .tarjeta__profesional10, .tarjeta .tarjeta__profesional11, .tarjeta .tarjeta__profesional12 {
-    width: 80vw; }
+      grid-template-areas: "tarjeta__profesional1" "tarjeta__profesional1" "tarjeta__profesional2" "tarjeta__profesional2" "tarjeta__profesional3" "tarjeta__profesional3" "tarjeta__profesional4" "tarjeta__profesional4" "tarjeta__profesional5" "tarjeta__profesional5" "tarjeta__profesional6" "tarjeta__profesional6" "tarjeta__profesional7" "tarjeta__profesional7" "tarjeta__profesional8" "tarjeta__profesional8" "tarjeta__profesional9" "tarjeta__profesional9" "tarjeta__profesional10" "tarjeta__profesional10" "tarjeta__profesional11" "tarjeta__profesional11" "tarjeta__profesional12" "tarjeta__profesional12"; }
+      .tarjeta .tarjeta__profesional1 {
+        grid-area: tarjeta__profesional1; }
+      .tarjeta .tarjeta__profesional2 {
+        grid-area: tarjeta__profesional2; }
+      .tarjeta .tarjeta__profesional3 {
+        grid-area: tarjeta__profesional3; }
+      .tarjeta .tarjeta__profesional4 {
+        grid-area: tarjeta__profesional4; }
+      .tarjeta .tarjeta__profesional5 {
+        grid-area: tarjeta__profesional5; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional6; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional7; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional8; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional9; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional10; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional11; }
+      .tarjeta .tarjeta__profesional6 {
+        grid-area: tarjeta__profesional12; }
+      .tarjeta .tarjeta__profesional1, .tarjeta .tarjeta__profesional2, .tarjeta .tarjeta__profesional3, .tarjeta .tarjeta__profesional4, .tarjeta .tarjeta__profesional5, .tarjeta .tarjeta__profesional6,
+      .tarjeta .tarjeta__profesional7, .tarjeta .tarjeta__profesional8, .tarjeta .tarjeta__profesional9, .tarjeta .tarjeta__profesional10, .tarjeta .tarjeta__profesional11, .tarjeta .tarjeta__profesional12 {
+        width: 80vw; } }
 
 .form__container {
   display: flex;

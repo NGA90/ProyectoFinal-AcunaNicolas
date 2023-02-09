@@ -127,14 +127,15 @@
         
             p{
                 font-weight: 500;
-                color: $color-primario-btn;
+                color: #fff;
                 font-style: italic;
                 text-shadow: 1px 1px 2px #000;
             }
 
             h3{
-                text-shadow: 1px 1px 2px $color-primario-btn;
+                text-shadow: 1px 1px 2px $color-hover-btn;
                 font-weight: 800;
+                color: $color-primario-btn;
             }
     } 
     .tarjeta__profesional1:hover , .tarjeta__profesional12:hover, .tarjeta__profesional2:hover, .tarjeta__profesional3:hover, .tarjeta__profesional4:hover,
@@ -175,7 +176,7 @@
                 "tarjeta__profesional11"
                 "tarjeta__profesional12"
                 "tarjeta__profesional12";
-        }
+        
                 
                 .tarjeta__profesional1 { grid-area: tarjeta__profesional1; }
                 
@@ -205,5 +206,5 @@
             .tarjeta__profesional7, .tarjeta__profesional8,.tarjeta__profesional9, .tarjeta__profesional10,.tarjeta__profesional11, .tarjeta__profesional12{
             width: 80vw;
         }
+      }
     }
-    
