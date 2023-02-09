@@ -21,6 +21,15 @@
             opacity: 100%;
         }
     }
+
+    @media screen and (min-width: 100px) and (max-width: 899px){
+        .depilacion-img {
+        h3{ 
+            margin-top: 25px;
+            font-size: 30px;
+        }
+    }
+}
     
 }
 
@@ -89,6 +98,7 @@
             .depilacion__Cards-content{
                 h3{
                     padding-top: 10px;
+                    font-size: 20px;
                 }
             }
         }
@@ -114,10 +124,18 @@
             font-weight: 800;
             font-size: 45px;
             text-shadow: 1px 1px 2px #000;
-            opacity: 100%;      
+            opacity: 100%;
+            
+            @media screen and (min-width: 100px) and (max-width: 899px){
+                margin-top: 25px;
+                font-size: 30px;
+                
+            }
         }
     }
 }
+
+
 
 .tratamientosFaciales__Container {
     display: flex;
@@ -235,7 +253,13 @@
             font-weight: 800;
             font-size: 45px;
             text-shadow: 1px 1px 2px #000;
-            opacity: 100%;      
+            opacity: 100%;
+
+            @media screen and (min-width: 100px) and (max-width: 899px){
+                margin-top: 18px;
+                font-size: 30px;
+                
+            }
         }
     }
 }
