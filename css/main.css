@@ -384,18 +384,20 @@ a:visited {
   .logo__Whatsapp .icon__Whatsapp {
     margin-top: 10px; }
 
-.especialidad {
+main h1 {
   padding-top: 70px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #0096a1;
+  text-align: center; }
+
+.especialidad {
+  padding-top: 10px;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-around;
   flex-wrap: wrap; }
-  .especialidad h1 {
-    font-weight: 800;
-    font-size: 20px;
-    color: #0096a1;
-    padding-top: 10px; }
   .especialidad .especialidad__card {
     padding-top: 10px;
     padding-bottom: 2px;
@@ -465,13 +467,6 @@ a:visited {
           max-width: 80px; }
         .especialidad .especialidad__card .especialidad__card__content h3 {
           font-size: 20px; } }
-
-h1 {
-  padding-top: 80px;
-  font-weight: 800;
-  font-size: 20px;
-  color: #0096a1;
-  text-align: center; }
 
 .tarjeta {
   padding-bottom: 60px;
@@ -803,7 +798,7 @@ h1 {
   align-content: center;
   align-items: center;
   color: #000;
-  padding-top: 60px; }
+  padding-top: 20px; }
   .form__container .form-img {
     padding: 30px; }
     .form__container .form-img img {
@@ -856,7 +851,8 @@ h1 {
         border: none;
         padding: 15px; }
       .form__container .form .form__section input[type="submit"]:hover {
-        background: #5f4ff7; }
+        background: #5f4ff7;
+        transition: all 1s; }
       .form__container .form .form__section input[type="submit"]:active {
         background: linear-gradient(to bottom, #a197ff, #5f4ff7); }
       .form__container .form .form__section textarea:focus, .form__container .form .form__section input:focus {
@@ -866,7 +862,7 @@ h1 {
         width: 100px; } }
 
 .depilacion {
-  padding-top: 59px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   text-align: center; }
@@ -957,7 +953,7 @@ h1 {
       opacity: 100%; }
       @media screen and (min-width: 100px) and (max-width: 899px) {
         .tratamientosFaciales .tratamientosFaciales-img h3 {
-          margin-top: 25px;
+          margin-top: 15px;
           font-size: 30px; } }
 
 .tratamientosFaciales__Container {

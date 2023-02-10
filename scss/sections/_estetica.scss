@@ -1,5 +1,5 @@
 .depilacion{
-    padding-top: 59px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -127,15 +127,13 @@
             opacity: 100%;
             
             @media screen and (min-width: 100px) and (max-width: 899px){
-                margin-top: 25px;
+                margin-top: 15px;
                 font-size: 30px;
                 
             }
         }
     }
 }
-
-
 
 .tratamientosFaciales__Container {
     display: flex;

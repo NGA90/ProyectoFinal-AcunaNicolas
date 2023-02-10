@@ -1,17 +1,21 @@
+main{
+    h1{
+        padding-top: 70px;
+        font-weight: 800;
+        font-size: 30px;
+        color: $color-primario-btn;
+        text-align: center;
+        }
+    }
+
+
 .especialidad {
-    padding-top: 70px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    h1{
-        font-weight: 800;
-        font-size: 20px;
-        color: $color-primario-btn;
-        padding-top: 10px;
-    }
 
         .especialidad__card {
             padding-top: 10px;
