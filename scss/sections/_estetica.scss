@@ -7,17 +7,17 @@
     .depilacion-img {
         opacity: 100%;
         height: 10vh;
-        background-image: url(../resources/depilacion.jpg);
-        background-size: cover;
-        background-position: 50% 75%;
+        // background-image: url(../resources/depilacion.jpg);
+        // background-size: cover;
+        // background-position: 50% 75%;
         text-align: center;
 
         h3{
             margin-top: 20px;
-            color: $color-primario-btn;
+            color: $border-primary;
             font-weight: 800;
             font-size: 45px;
-            text-shadow: 1px 1px 2px #000;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;
         }
     }
@@ -25,8 +25,8 @@
     @media screen and (min-width: 100px) and (max-width: 899px){
         .depilacion-img {
         h3{ 
-            margin-top: 25px;
-            font-size: 30px;
+            
+            font-size: 5vh;
         }
     }
 }
@@ -98,7 +98,7 @@
             .depilacion__Cards-content{
                 h3{
                     padding-top: 10px;
-                    font-size: 20px;
+                    font-size: 4vh;
                 }
             }
         }
@@ -113,22 +113,22 @@
     .tratamientosFaciales-img {
         opacity: 100%;
         height: 10vh;
-        background: url(../../resources/limpiezaFacial.jpg);
-        background-size: cover;
-        background-position: 0% 28%;
+        // background: url(../../resources/limpiezaFacial.jpg);
+        // background-size: cover;
+        // background-position: 0% 28%;
         text-align: center;
 
         h3{
             margin-top: 20px;
-            color: $color-primario-btn;
+            color: $border-primary;
             font-weight: 800;
             font-size: 45px;
-            text-shadow: 1px 1px 2px #000;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;
             
             @media screen and (min-width: 100px) and (max-width: 899px){
-                margin-top: 15px;
-                font-size: 30px;
+                
+                font-size: 5vh;
                 
             }
         }
@@ -240,22 +240,22 @@
     .tratamientosCorporales-img {
         opacity: 100%;
         height: 10vh;
-        background-image: url(../resources/tratamientosCorporales.jpg);
-        background-size: cover;
-        background-position: 90%;
+        // background-image: url(../resources/tratamientosCorporales.jpg);
+        // background-size: cover;
+        // background-position: 90%;
         text-align: center;
 
         h3{
             margin-top: 20px;
-            color: $color-primario-btn;
+            color: $border-primary;
             font-weight: 800;
             font-size: 45px;
-            text-shadow: 1px 1px 2px #000;
+            text-shadow: 1px 1px 2px $color-primario-btn;
             opacity: 100%;
 
             @media screen and (min-width: 100px) and (max-width: 899px){
-                margin-top: 18px;
-                font-size: 30px;
+                // margin-top: 18px;
+                font-size: 5vh;
                 
             }
         }

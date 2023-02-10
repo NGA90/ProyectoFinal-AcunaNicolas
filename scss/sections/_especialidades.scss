@@ -3,8 +3,9 @@ main{
         padding-top: 70px;
         font-weight: 800;
         font-size: 30px;
-        color: $color-primario-btn;
+        color: $border-primary;
         text-align: center;
+        text-shadow: 1px 1px 2px $color-primario-btn;
         }
     }
 

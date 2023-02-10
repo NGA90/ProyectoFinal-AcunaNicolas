@@ -390,8 +390,9 @@ main h1 {
   padding-top: 70px;
   font-weight: 800;
   font-size: 30px;
-  color: #0096a1;
-  text-align: center; }
+  color: #5f6b6e;
+  text-align: center;
+  text-shadow: 1px 1px 2px #0096a1; }
 
 .especialidad {
   padding-top: 10px;
@@ -871,21 +872,17 @@ main h1 {
   .depilacion .depilacion-img {
     opacity: 100%;
     height: 10vh;
-    background-image: url(../resources/depilacion.jpg);
-    background-size: cover;
-    background-position: 50% 75%;
     text-align: center; }
     .depilacion .depilacion-img h3 {
       margin-top: 20px;
-      color: #0096a1;
+      color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;
-      text-shadow: 1px 1px 2px #000;
+      text-shadow: 1px 1px 2px #0096a1;
       opacity: 100%; }
   @media screen and (min-width: 100px) and (max-width: 899px) {
     .depilacion .depilacion-img h3 {
-      margin-top: 25px;
-      font-size: 30px; } }
+      font-size: 5vh; } }
 
 .depilacion__Container {
   padding: 20px 0px 20px 0px;
@@ -933,7 +930,7 @@ main h1 {
         width: 100%; }
       .depilacion__Container .depilacion__Cards .depilacion__Cards-content h3 {
         padding-top: 10px;
-        font-size: 20px; } }
+        font-size: 4vh; } }
 
 .tratamientosFaciales {
   display: flex;
@@ -942,21 +939,17 @@ main h1 {
   .tratamientosFaciales .tratamientosFaciales-img {
     opacity: 100%;
     height: 10vh;
-    background: url(../../resources/limpiezaFacial.jpg);
-    background-size: cover;
-    background-position: 0% 28%;
     text-align: center; }
     .tratamientosFaciales .tratamientosFaciales-img h3 {
       margin-top: 20px;
-      color: #0096a1;
+      color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;
-      text-shadow: 1px 1px 2px #000;
+      text-shadow: 1px 1px 2px #0096a1;
       opacity: 100%; }
       @media screen and (min-width: 100px) and (max-width: 899px) {
         .tratamientosFaciales .tratamientosFaciales-img h3 {
-          margin-top: 15px;
-          font-size: 30px; } }
+          font-size: 5vh; } }
 
 .tratamientosFaciales__Container {
   display: flex;
@@ -1024,21 +1017,17 @@ main h1 {
   .tratamientosCorporales .tratamientosCorporales-img {
     opacity: 100%;
     height: 10vh;
-    background-image: url(../resources/tratamientosCorporales.jpg);
-    background-size: cover;
-    background-position: 90%;
     text-align: center; }
     .tratamientosCorporales .tratamientosCorporales-img h3 {
       margin-top: 20px;
-      color: #0096a1;
+      color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;
-      text-shadow: 1px 1px 2px #000;
+      text-shadow: 1px 1px 2px #0096a1;
       opacity: 100%; }
       @media screen and (min-width: 100px) and (max-width: 899px) {
         .tratamientosCorporales .tratamientosCorporales-img h3 {
-          margin-top: 18px;
-          font-size: 30px; } }
+          font-size: 5vh; } }
 
 .tratamientosCorporales__Container {
   display: flex;
