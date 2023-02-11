@@ -49,6 +49,9 @@
         transition: all 1s;
         border-radius: 40px;
         text-align: center;
+        box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
 
         .depilacion__Cards-img{
             width: 20vw;
@@ -73,6 +76,9 @@
     }
         .depilacion__Cards:hover{
         background: #dfdfdf;
+        box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
     }
 
     @media screen and (min-width: 100px) and (max-width: 899px){
@@ -147,11 +153,14 @@
         align-items: center;
         justify-content: space-around;
         width: 30vw;
-        height: fit-content;
+        height: 50vh;
         margin: 5px;
         transition: all 1s;
         border-radius: 40px;
         text-align: center;
+        box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
         
 
         .tratamientosFaciales__Cards-img {
@@ -178,6 +187,9 @@
     }
     .tratamientosFaciales__Cards:hover{
         background: #dfdfdf;
+        box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
     }
 
     @media screen and (min-width: 900px) and (max-width: 1500px){
@@ -280,6 +292,9 @@
         border-radius: 40px;
         text-align: center;
         align-items: center;
+        box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
 
         .tratamientosCorporales__Cards-img {
             width: 20vw;
@@ -304,6 +319,9 @@
     }
     .tratamientosCorporales__Cards:hover{
             background: #dfdfdf;
+            box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
         }   
     
     @media screen and (min-width: 100px) and (max-width: 899px){

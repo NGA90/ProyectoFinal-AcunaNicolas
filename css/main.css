@@ -413,8 +413,11 @@ main h1 {
     align-items: center;
     justify-content: center;
     border-radius: 20px;
-    transition-property: background;
-    transition-duration: 1s; }
+    transition-property: background, box-shadow;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75); }
     .especialidad .especialidad__card .especialidad__card__img img {
       min-width: 50%; }
     .especialidad .especialidad__card button {
@@ -435,7 +438,10 @@ main h1 {
       background: #5f4ff7;
       border: 2px solid #000000; }
   .especialidad .especialidad__card:hover {
-    background: #dfdfdf; }
+    background: #dfdfdf;
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75); }
   .especialidad .especialidad__card__content h3 {
     text-transform: uppercase;
     color: #0096a1;
@@ -460,7 +466,8 @@ main h1 {
         height: fit-content;
         justify-content: flex-start;
         padding: 10px 0 10px 0;
-        font-size: 13px; }
+        font-size: 13px;
+        margin: 10px 0 10px 0; }
         .especialidad .especialidad__card button {
           font-size: 12px;
           font: bold;
@@ -898,7 +905,10 @@ main h1 {
     margin: 5px;
     transition: all 1s;
     border-radius: 40px;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75); }
     .depilacion__Container .depilacion__Cards .depilacion__Cards-img {
       width: 20vw;
       height: 15vh;
@@ -914,7 +924,10 @@ main h1 {
       color: #0096a1;
       font-weight: 800; }
   .depilacion__Container .depilacion__Cards:hover {
-    background: #dfdfdf; }
+    background: #dfdfdf;
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75); }
   @media screen and (min-width: 100px) and (max-width: 899px) {
     .depilacion__Container .especialidad-button button {
       font-size: 12px;
@@ -962,11 +975,14 @@ main h1 {
     align-items: center;
     justify-content: space-around;
     width: 30vw;
-    height: fit-content;
+    height: 50vh;
     margin: 5px;
     transition: all 1s;
     border-radius: 40px;
-    text-align: center; }
+    text-align: center;
+    box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75); }
     .tratamientosFaciales__Container .tratamientosFaciales__Cards .tratamientosFaciales__Cards-img {
       width: 20vw;
       height: 15vh;
@@ -981,7 +997,10 @@ main h1 {
       color: #0096a1;
       font-weight: 800; }
   .tratamientosFaciales__Container .tratamientosFaciales__Cards:hover {
-    background: #dfdfdf; }
+    background: #dfdfdf;
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75); }
   @media screen and (min-width: 900px) and (max-width: 1500px) {
     .tratamientosFaciales__Container .tratamientosFaciales__Cards {
       flex-direction: column;
@@ -1045,7 +1064,10 @@ main h1 {
     transition: all 1s;
     border-radius: 40px;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(179, 179, 179, 0.75); }
     .tratamientosCorporales__Container .tratamientosCorporales__Cards .tratamientosCorporales__Cards-img {
       width: 20vw;
       height: 15vh;
@@ -1060,7 +1082,10 @@ main h1 {
       color: #0096a1;
       font-weight: 800; }
   .tratamientosCorporales__Container .tratamientosCorporales__Cards:hover {
-    background: #dfdfdf; }
+    background: #dfdfdf;
+    box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75); }
   @media screen and (min-width: 100px) and (max-width: 899px) {
     .tratamientosCorporales__Container .especialidad-button button {
       font-size: 12px;

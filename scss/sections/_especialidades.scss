@@ -17,6 +17,7 @@ main{
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 
         .especialidad__card {
             padding-top: 10px;
@@ -30,8 +31,11 @@ main{
             align-items: center;
             justify-content: center;
             border-radius: 20px;
-            transition-property: background;
+            transition-property: background, box-shadow;
             transition-duration: 1s;
+            box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(179,179,179,0.75);
             
             .especialidad__card__img{
 
@@ -65,6 +69,9 @@ main{
         }
         .especialidad__card:hover {
             background: #dfdfdf;
+            box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 18px 0px rgba(0,0,0,0.75);
         }
 
         .especialidad__card__content{
@@ -102,6 +109,7 @@ main{
             justify-content: flex-start;
             padding: 10px 0 10px 0;
             font-size: 13px;
+            margin: 10px 0 10px 0;
 
                 button{
                     font-size: 12px;
