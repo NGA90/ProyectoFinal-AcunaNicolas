@@ -83,52 +83,48 @@ a:visited {
   @media screen and (min-width: 100px) and (max-width: 1500px) {
     .navbar__normal {
       display: none; } }
-
-.navbar__logo {
-  display: flex;
-  align-items: center; }
-  .navbar__logo img {
-    object-fit: cover;
-    max-width: 80px;
-    padding: 5px; }
-  .navbar__logo b {
-    padding-left: 20px;
-    color: #5f6b6e;
-    animation-name: opacidad;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite; }
-
-.navbar__listaMenu {
-  font-size: 18px;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  height: 100%;
-  margin: 0; }
-  .navbar__listaMenu a:hover, .navbar__listaMenu li:hover {
-    color: #5f4ff7;
-    transition: 0.4s; }
-
-.navbar__listaMenu__boton {
-  margin: 0px;
-  padding: 10px;
-  text-align: center; }
-  .navbar__listaMenu__boton i {
-    padding-right: 10px; }
-  .navbar__listaMenu__boton a {
-    color: #5f6b6e;
-    text-decoration: none;
-    text-transform: uppercase;
-    cursor: pointer; }
-
-.navbar__listaMenu--activo {
-  color: #0096a1; }
-  .navbar__listaMenu--activo a {
-    color: #0096a1; }
-  .navbar__listaMenu--activo i {
-    color: #0096a1; }
+  .navbar__normal .navbar__logo {
+    display: flex;
+    align-items: center; }
+    .navbar__normal .navbar__logo img {
+      object-fit: cover;
+      max-width: 80px;
+      padding: 5px; }
+    .navbar__normal .navbar__logo b {
+      padding-left: 20px;
+      color: #5f6b6e;
+      animation-name: opacidad;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite; }
+  .navbar__normal .navbar__listaMenu {
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 100%;
+    margin: 0; }
+    .navbar__normal .navbar__listaMenu .navbar__listaMenu__boton {
+      margin: 0px;
+      padding: 10px;
+      text-align: center; }
+      .navbar__normal .navbar__listaMenu .navbar__listaMenu__boton i {
+        padding-right: 10px; }
+      .navbar__normal .navbar__listaMenu .navbar__listaMenu__boton a {
+        color: #5f6b6e;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer; }
+    .navbar__normal .navbar__listaMenu a:hover, .navbar__normal .navbar__listaMenu li:hover {
+      color: #5f4ff7;
+      transition: 0.4s; }
+    .navbar__normal .navbar__listaMenu .navbar__listaMenu--activo {
+      color: #0096a1; }
+      .navbar__normal .navbar__listaMenu .navbar__listaMenu--activo a {
+        color: #0096a1; }
+      .navbar__normal .navbar__listaMenu .navbar__listaMenu--activo i {
+        color: #0096a1; }
 
 .carousel {
   padding-top: 58px; }
@@ -530,6 +526,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/1.jpg); }
   .tarjeta .tarjeta__profesional2 {
     display: flex;
@@ -550,6 +547,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/2.jpg); }
   .tarjeta .tarjeta__profesional3 {
     display: flex;
@@ -570,6 +568,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/3.jpg); }
   .tarjeta .tarjeta__profesional4 {
     display: flex;
@@ -590,6 +589,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/4.jpg); }
   .tarjeta .tarjeta__profesional5 {
     display: flex;
@@ -610,6 +610,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/5.jpg); }
   .tarjeta .tarjeta__profesional6 {
     display: flex;
@@ -630,6 +631,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/6.jpg); }
   .tarjeta .tarjeta__profesional7 {
     display: flex;
@@ -650,6 +652,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/7.jpg); }
   .tarjeta .tarjeta__profesional8 {
     display: flex;
@@ -670,6 +673,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/8.jpg); }
   .tarjeta .tarjeta__profesional9 {
     display: flex;
@@ -690,6 +694,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/9.jpg); }
   .tarjeta .tarjeta__profesional10 {
     display: flex;
@@ -710,6 +715,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/10.jpg); }
   .tarjeta .tarjeta__profesional11 {
     display: flex;
@@ -730,6 +736,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/11.jpg); }
   .tarjeta .tarjeta__profesional12 {
     display: flex;
@@ -750,6 +757,7 @@ main h1 {
     box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -webkit-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
     -moz-box-shadow: 10px 10px 31px 0px rgba(173, 168, 168, 0.75);
+    filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/12.jpg); }
   .tarjeta .tarjeta__profesional-content p {
     font-weight: 500;
@@ -765,7 +773,8 @@ main h1 {
   .tarjeta .tarjeta__profesional10:hover, .tarjeta .tarjeta__profesional11:hover {
     box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75); }
+    -moz-box-shadow: 10px 10px 94px -1px rgba(0, 0, 0, 0.75);
+    filter: grayscale(0); }
   @media screen and (min-width: 100px) and (max-width: 799px) {
     .tarjeta {
       grid-template-columns: 1fr;
@@ -881,7 +890,6 @@ main h1 {
     height: 10vh;
     text-align: center; }
     .depilacion .depilacion-img h3 {
-      margin-top: 20px;
       color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;
@@ -954,7 +962,6 @@ main h1 {
     height: 10vh;
     text-align: center; }
     .tratamientosFaciales .tratamientosFaciales-img h3 {
-      margin-top: 20px;
       color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;
@@ -1038,7 +1045,6 @@ main h1 {
     height: 10vh;
     text-align: center; }
     .tratamientosCorporales .tratamientosCorporales-img h3 {
-      margin-top: 20px;
       color: #5f6b6e;
       font-weight: 800;
       font-size: 45px;

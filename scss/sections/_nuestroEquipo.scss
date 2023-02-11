@@ -17,6 +17,7 @@
   box-shadow: 10px 10px 31px 0px rgba(173,168,168,0.75);
 -webkit-box-shadow: 10px 10px 31px 0px rgba(173,168,168,0.75);
 -moz-box-shadow: 10px 10px 31px 0px rgba(173,168,168,0.75);
+filter: grayscale(1);
 }
 
 .tarjeta {  
@@ -144,6 +145,7 @@
             box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
             -webkit-box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
             -moz-box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
+            filter: grayscale(0);
     } 
 
     @media screen and (min-width: 100px) and (max-width: 799px){

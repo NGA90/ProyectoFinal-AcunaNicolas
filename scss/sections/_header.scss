@@ -33,9 +33,8 @@
     @media screen and (min-width: 100px) and (max-width: 1500px){
         display: none;
     }    
-}
 
-.navbar__logo {
+    .navbar__logo {
         display: flex;
         align-items: center;
 
@@ -56,10 +55,8 @@
         }
 
 }
-    
-    
 
-.navbar__listaMenu {
+    .navbar__listaMenu {
         font-size: 18px;
         list-style: none;
         display: flex;
@@ -68,39 +65,43 @@
         height: 100%;
         margin: 0;
 
-        a:hover, li:hover{
-            color: $color-hover-btn;
-            transition: 0.4s;
-        }
-}
-    
-.navbar__listaMenu__boton {
-            margin: 0px;
-            padding: 10px;
+    .navbar__listaMenu__boton {
+        margin: 0px;
+        padding: 10px;
         text-align: center;
 
-        i{
-            padding-right: 10px;
-        }
-
-        a{
-            color: $border-primary;
-            text-decoration: none;
-            text-transform: uppercase;
-        cursor: pointer;
-        }
-}
-
-
-
-.navbar__listaMenu--activo{
-    color: $color-primario-btn;
+    i{
+        padding-right: 10px;
+    }
 
     a{
-        color: $color-primario-btn
-    }
-
-    i{
-        color: $color-primario-btn
+        color: $border-primary;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
     }
 }
+
+    a:hover, li:hover{
+        color: $color-hover-btn;
+        transition: 0.4s;
+    }
+
+    .navbar__listaMenu--activo{
+        color: $color-primario-btn;
+    
+        a{
+            color: $color-primario-btn
+        }
+    
+        i{
+            color: $color-primario-btn
+        }
+    }
+}
+
+}
+
+
+
+
