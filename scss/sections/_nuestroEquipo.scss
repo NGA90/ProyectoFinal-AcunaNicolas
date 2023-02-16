@@ -11,8 +11,9 @@
   -webkit-border-radius: 0px 0px 103px 103px;
   -moz-border-radius: 0px 0px 103px 103px;
   border: 4px solid $border-primary;
-  transition-property: box-shadow, scale;
-  transition-duration: 1s;
+  // transition-property: box-shadow, scale, filter;
+  // transition-duration: 1s;
+  transition: all 1s;
   text-align: center;
   box-shadow: 10px 10px 31px 0px rgba(173,168,168,0.75);
 -webkit-box-shadow: 10px 10px 31px 0px rgba(173,168,168,0.75);
@@ -65,33 +66,35 @@ filter: grayscale(1);
   
   .tarjeta__profesional1{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/1.jpg);
-  
+    background-image: url(../resources/nuestrequipo/1.jpeg);
+    background-position: 20% 20%;
   }
   
   .tarjeta__profesional2{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/2.jpg);
+    background-image: url(../resources/nuestrequipo/2.jpeg);
+    background-position: bottom;
   }
   
   .tarjeta__profesional3{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/3.jpg);
+    background-image: url(../resources/nuestrequipo/3.jpeg);
   }
   
   .tarjeta__profesional4{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/4.jpg);
+    background-image: url(../resources/nuestrequipo/4.jpeg);
   }
   
   .tarjeta__profesional5{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/5.jpg);
+    background-image: url(../resources/nuestrequipo/5.jpeg);
   }
   
   .tarjeta__profesional6{
     @include tarjeta;
     background-image: url(../resources/nuestrequipo/6.jpg);
+    background-position: 10% 20%;
   }
   
   .tarjeta__profesional7{
@@ -136,16 +139,21 @@ filter: grayscale(1);
             h3{
                 text-shadow: 1px 1px 2px $color-hover-btn;
                 font-weight: 800;
-                color: $color-primario-btn;
+                color: #000;
             }
-    } 
+    }
+    
     .tarjeta__profesional1:hover , .tarjeta__profesional12:hover, .tarjeta__profesional2:hover, .tarjeta__profesional3:hover, .tarjeta__profesional4:hover,
     .tarjeta__profesional5:hover, .tarjeta__profesional6:hover, .tarjeta__profesional7:hover, .tarjeta__profesional8:hover, .tarjeta__profesional9:hover,
     .tarjeta__profesional10:hover, .tarjeta__profesional11:hover{ 
-            box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
-            -webkit-box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
-            -moz-box-shadow: 10px 10px 94px -1px rgba(0,0,0,0.75);
+            box-shadow: 10px 10px 70px -1px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 70px -1px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 70px -1px rgba(0,0,0,0.75);
             filter: grayscale(0);
+            h3 {
+              color: $color-primario-btn;
+              transition: all .4s;
+            }
     } 
 
     @media screen and (min-width: 100px) and (max-width: 799px){
