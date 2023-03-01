@@ -24,7 +24,7 @@ filter: grayscale(1);
     
     padding-bottom: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 35px 10px;
     grid-auto-flow: row;
@@ -33,8 +33,8 @@ filter: grayscale(1);
       "tarjeta__profesional1 tarjeta__profesional2 tarjeta__profesional3 tarjeta__profesional4"
       "tarjeta__profesional5 tarjeta__profesional6 tarjeta__profesional7 tarjeta__profesional8"
       "tarjeta__profesional5 tarjeta__profesional6 tarjeta__profesional7 tarjeta__profesional8"
-      "tarjeta__profesional9 tarjeta__profesional10 tarjeta__profesional11 tarjeta__profesional12"
-      "tarjeta__profesional9 tarjeta__profesional10 tarjeta__profesional11 tarjeta__profesional12";
+      "tarjeta__profesional9 tarjeta__profesional10 tarjeta__profesional11 ."
+      "tarjeta__profesional9 tarjeta__profesional10 tarjeta__profesional11 .";
     justify-items: center;
   
   
@@ -60,7 +60,7 @@ filter: grayscale(1);
   
   .tarjeta__profesional11 { grid-area: tarjeta__profesional11; }
   
-  .tarjeta__profesional12 { grid-area: tarjeta__profesional12; }
+  // .tarjeta__profesional12 { grid-area: tarjeta__profesional12; }
   
   
   .tarjeta__profesional1{
@@ -112,7 +112,7 @@ filter: grayscale(1);
   
   .tarjeta__profesional10{
     @include tarjeta;
-    background-image: url(../resources/nuestrequipo/10.jpg);
+    background-image: url(../resources/nuestrequipo/12.jpeg);
     }
     
     .tarjeta__profesional11{
@@ -120,11 +120,11 @@ filter: grayscale(1);
     background-image: url(../resources/nuestrequipo/11.jpg);
     }
 
-    .tarjeta__profesional12{
-      @include tarjeta;
-        background-image: url(../resources/nuestrequipo/12.jpeg);
+    // .tarjeta__profesional12{
+    //   @include tarjeta;
+    //     background-image: url(../resources/nuestrequipo/12.jpeg);
 
-    }
+    // }
     
     .tarjeta__profesional-content{
 
@@ -163,7 +163,7 @@ filter: grayscale(1);
             }
     } 
 
-    @media screen and (min-width: 800px) and (max-width: 1440px){
+    @media screen and (min-width: 1050px) and (max-width: 1440px){
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: repeat(1fr);
       grid-auto-flow: row;
@@ -207,6 +207,55 @@ filter: grayscale(1);
         }
 
     }
+
+    @media screen and (min-width: 800px) and (max-width: 1049px){
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(8, 1fr);
+      gap: 15px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+          "tarjeta__profesional1 tarjeta__profesional2"
+          "tarjeta__profesional1 tarjeta__profesional2"
+          "tarjeta__profesional3 tarjeta__profesional4"
+          "tarjeta__profesional3 tarjeta__profesional4"
+          "tarjeta__profesional5 tarjeta__profesional6"
+          "tarjeta__profesional5 tarjeta__profesional6"         
+          "tarjeta__profesional7 tarjeta__profesional8"
+          "tarjeta__profesional7 tarjeta__profesional8"
+          "tarjeta__profesional9 tarjeta__profesional10"
+          "tarjeta__profesional9 tarjeta__profesional10"
+          "tarjeta__profesional11 tarjeta__profesional12"
+          "tarjeta__profesional11 tarjeta__profesional12";
+          
+          .tarjeta__profesional1 { grid-area: tarjeta__profesional1; }
+          
+          .tarjeta__profesional2 { grid-area: tarjeta__profesional2; }
+          
+          .tarjeta__profesional3 { grid-area: tarjeta__profesional3; }
+          
+          .tarjeta__profesional4 { grid-area: tarjeta__profesional4; }
+          
+          .tarjeta__profesional5 { grid-area: tarjeta__profesional5; }
+          
+          .tarjeta__profesional6 { grid-area: tarjeta__profesional6; }
+          
+          .tarjeta__profesional7 { grid-area: tarjeta__profesional7; }
+  
+      .tarjeta__profesional8 { grid-area: tarjeta__profesional8; }
+      
+      .tarjeta__profesional9 { grid-area: tarjeta__profesional9; }
+      
+      .tarjeta__profesional10 { grid-area: tarjeta__profesional10; }
+      
+      .tarjeta__profesional11 { grid-area: tarjeta__profesional11; }
+      
+      .tarjeta__profesional12 { grid-area: tarjeta__profesional12; }
+      
+      .tarjeta__profesional1, .tarjeta__profesional2, .tarjeta__profesional3, .tarjeta__profesional4, .tarjeta__profesional5, .tarjeta__profesional6,
+      .tarjeta__profesional7, .tarjeta__profesional8,.tarjeta__profesional9, .tarjeta__profesional10,.tarjeta__profesional11, .tarjeta__profesional12{
+      width: 45vw;
+      }
+}
 
     @media screen and (min-width: 100px) and (max-width: 799px){
             grid-template-columns: 1fr;
